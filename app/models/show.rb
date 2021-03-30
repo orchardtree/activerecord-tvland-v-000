@@ -7,7 +7,7 @@ class Show < ActiveRecord::Base
   def actors_list
     self.actors.collect do |a|
       #Actor.full_name
-      binding.pry
+      #binding.pry
     end
   end
 end
